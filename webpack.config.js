@@ -18,8 +18,8 @@ module.exports = {
       use: {
         loader: 'babel-loader',
         options: {
-          presets: ['env']
-          // babel 7: presets: ['@babel/preset-env']
+          presets: ['@babel/preset-env']
+          // babel 7: presets: ['@babel/preset-env'] // ["env"]
         }
       }
     }]
